@@ -45,10 +45,10 @@
     <?php
 
     //connecting to a database
-    define('server', 'localhost');
-    define('user', 'root');
-    define('password', '');
-    define('name', 'product_data');
+    define('server', 'pfw0ltdr46khxib3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
+    define('user', 'eomy42d2zial8lmq');
+    define('password', 'x5f5huzlu7zpbcm5');
+    define('name', 't8u60ee5bgvkj0jg');
     session_start();
     /* Establishing Connection with Database */
     $con = new mysqli(server, user, password, name) or die('error');
