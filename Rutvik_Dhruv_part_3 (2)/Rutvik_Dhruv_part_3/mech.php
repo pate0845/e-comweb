@@ -37,7 +37,7 @@
         /* Server and Database Info */
         define('server', 'pfw0ltdr46khxib3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
         define('user', 'eomy42d2zial8lmq');
-        define('password','	x5f5huzlu7zpbcm5');
+        define('password', 'x5f5huzlu7zpbcm5');
         define('name', 't8u60ee5bgvkj0jg');
 
         session_start();
