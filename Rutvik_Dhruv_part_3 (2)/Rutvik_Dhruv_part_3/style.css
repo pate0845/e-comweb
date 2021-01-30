@@ -1,0 +1,387 @@
+body {
+  background-color: black;
+}
+
+/* Change the color of links on hover */
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+/*for rating Stars*/
+
+.checked {
+  color: orange;
+}
+
+/*For Shortby Drop down Menu*/
+
+.shortby {
+  margin-bottom: 30px;
+  float: left
+}
+
+#low_rating, #high_rating, #low_price, #high_price {
+  width: 68px;
+}
+
+.shortby span {
+  background-color: black;
+  text-align: left;
+  width: 150px;
+  height: 30px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.shortby input {
+  color: white;
+  background: none;
+}
+
+.shortby button {
+  width: 150px;
+  margin-top: 5px;
+  background-color: black;
+  color: white;
+}
+
+/*--------------- Single Product Pages -----------------*/
+
+/*For arranging small images below product image*/
+
+.small-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.small-column {
+  flex: 20%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.small-column img {
+  height: 75px;
+  background-color: white;
+  object-fit: contain;
+  object-position: center center;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+/* For Product and its Discription: to align them side by side by creating table*/
+
+.rowA {
+  display: flex;
+}
+
+.columnA {
+  flex: 50%;
+  padding: 10px;
+}
+
+/* For product Main Image*/
+
+.Alpha {
+  height: 250px;
+  background-color: white;
+  object-fit: contain;
+  object-position: center center;
+}
+
+.productA {
+  margin-top: 50px;
+}
+
+.columnA {
+  padding: 20px;
+}
+
+.productA h4 {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.productA select {
+  display: block;
+  padding: 10px;
+  margin-top: 30px
+}
+
+/*for quantity Selecting Block*/
+
+.productA input {
+  background-color: white;
+  border-style: solid;
+  border-color: Black;
+  border-width: 1px;
+  width: 30px;
+  height: 25px;
+  padding-left: 10px;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* For Add to Cart Button*/
+
+.cart {
+  height: 30px;
+  width: auto;
+  margin-top: 10px;
+}
+
+/*---------- END of Single Product Page -------------*/
+
+/*----------------- Product Page --------------------*/
+
+/* Create three equal columns that sits next to each other */
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+
+.watches img {
+  height: 250px;
+  background-color: white;
+  object-fit: contain;
+  object-position: center center;
+}
+
+/* Create three equal columns that sits next to each other */
+
+/*For Arranging Feature Product Images */
+
+.row1 {
+  display: flex;
+}
+
+.column1 {
+  flex: 25%;
+  padding: 5px;
+}
+
+/*---------- Nav-Bar -----------*/
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*Brighter the links of Nav-Bar on Hover*/
+
+.topnav a:hover {
+  color: Grey;
+  filter: brightness(200%)
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.topnav-right {
+  display: flex;
+  float: right;
+}
+
+input {
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  margin-top: 10px;
+  height: 25px;
+  color: white;
+}
+
+button {
+  background-color: chocolate;
+  border-style: Solid;
+  border-color: white;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.topnav img {
+  width: 30px;
+  height: 20px;
+}
+
+.topnav-right img {
+  width: 25px;
+  height: 20px;
+}
+
+.container img {
+  padding-top: 50px;
+  padding-left: 150px;
+  align-items: center;
+  height: 550px;
+  width: 1000px;
+}
+
+/*------------ End Nav-Bar -----------------*/
+
+/*For Text on Image*/
+
+.container .First {
+  position: absolute;
+  /* Position the background text */
+  bottom: 0;
+  /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  /* Grey text */
+  width: 75%;
+  /* Full width */
+  padding-left: 150px;
+  /* Some padding */
+}
+
+.container .Second {
+  position: absolute;
+  /* Position the background text */
+  top: 1182px;
+  /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  /* Grey text */
+  width: 75%;
+  /* Full width */
+  padding-left: 150px;
+  /* Some padding */
+}
+
+.container .third {
+  position: absolute;
+  /* Position the background text */
+  top: 1765px;
+  /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  /* Grey text */
+  width: 75%;
+  /* Full width */
+  padding-left: 150px;
+  /* Some padding */
+}
+
+.container .fourth {
+  position: absolute;
+  /* Position the background text */
+  top: 2420px;
+  /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  /* Grey text */
+  width: 75%;
+  /* Full width */
+  padding-left: 150px;
+  /* Some padding */
+}
+
+/*---------- End of Text on Image  --------------*/
+
+/*---------------- Footer ------------------*/
+
+/*setting bagroungd and size of footer*/
+
+.footer {
+  width: 100%;
+  background: chocolate;
+  display: block;
+}
+
+/*Setting items inside footer class*/
+
+.footer-I {
+  width: 95%;
+  margin: auto;
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.footer-core {
+  width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+/* Setting Website name in footer*/
+
+.footer-core h2 {
+  padding: 10px 20px;
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  /*to upercase the title*/
+}
+
+.footer-core p {
+  color: yellow;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.footer-core h3 {
+  margin: 10px 0;
+  color: yellow;
+  font-size: 16px;
+  text-transform: uppercase;
+  /*to upercase the title*/
+}
+
+.footer ul {
+  list-style: none;
+  /*removing bulletings from unorderlist*/
+  color: #fff;
+  font-size: 15px;
+}
+
+/*for text of list*/
+
+.footer-core li {
+  text-decoration: none;
+  outline: none;
+  color: #000;
+}
+
+.footer-core li {
+  margin: 10px 0;
+  height: 25px;
+}
+
+/*----------------------end of CSS file---------------------*/

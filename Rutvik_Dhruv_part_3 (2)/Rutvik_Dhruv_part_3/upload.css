@@ -1,0 +1,11 @@
+/*css for add product page*/
+body {
+    margin:20px;
+    padding:0;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(45deg, #10e4af, #e02615, #29df50);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}

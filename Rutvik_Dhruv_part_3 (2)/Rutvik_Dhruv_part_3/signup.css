@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(45deg, #10e4af, #e02615, #29df50);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+body h1 {
+    text-align: center;
+    color: salmon;
+}
+
+form {
+    width: 320px;
+    padding-top: 20px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: salmon;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.design {
+    align-items: center;
+    position: center;
+    text-align: center;
+}
+
+.row label {
+    margin: 30%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    color: salmon;
+}
+
+.row input {
+    margin-bottom: 4%;
+    background-color: rgb(233, 190, 190);
+    margin-left: 20%;
+}
+
+.row select {
+    background-color: rgb(233, 190, 190);
+    margin-left: 20%;
+}
+
+#dob {
+    width: 180px;
+}
+
+#province {
+    width: 190px;
+}
+
+#name {
+    width: 180px;
+}
+
+#email {
+    width: 180px;
+}
+
+#city {
+    width: 180px;
+}
+
+.hi {
+    width: 53%;
+}
+
+#reset {
+    text-align: center;
+    height: 28px;
+    margin: 40px;
+    width: 70px;
+    background-color: lightsalmon;
+    color: black;
+    border-radius: 15px;
+}
+
+#submit {
+    text-align: center;
+    height: 28px;
+    margin: 40px;
+    width: 70px;
+    background-color: lightsalmon;
+    color: black;
+    border-radius: 15px;
+}
+
+#reset:hover {
+    color: red;
+    background-color: lightgreen;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#submit:hover {
+    color: red;
+    background-color: lightgreen;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
